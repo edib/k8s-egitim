@@ -6,10 +6,6 @@ parent: Ek Araçlar
 
 # Dashboard
 
-[Kullanılabilecek farklı tagler](https://github.com/kubernetes-sigs/kubespray/blob/master/docs/ansible.md)
-
-### Dashboard alternatif kurulum
-
 [Buradaki kurulum](https://github.com/kubernetes/dashboard) ile kurulur. 
 
 ### Dışarıdan Erişim için Nodeport Tanımı
