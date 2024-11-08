@@ -62,4 +62,8 @@ Least Privilege
 * Vulnerability Scanning
 * MTLS / ServiceMeshes
 
-https://www.youtube.com/watch?v=wqsUfvRyYpw
+### Kaynaklar
+[ Kubernetes Security Best Practices - Ian Lewis, Google ](https://www.youtube.com/watch?v=wqsUfvRyYpw)
+
+[Kubernetes Security: Solving Common Challenges](https://www.youtube.com/watch?v=SGMtZQZk-2c)
+
