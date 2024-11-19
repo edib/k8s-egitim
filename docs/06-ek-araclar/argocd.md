@@ -8,7 +8,7 @@ parent: Ek Araçlar
 
 declarative kubernetes cd aracı
 
-![argocd mimari](/kaynaklar/argo-cd-mimari.png)
+![argocd mimari](/docs/kaynaklar/argo-cd-mimari.png)
 
 Kaynaklar
 * [ Just me and Opensource - [ Kube 85.1 ] Argo CD continuous deployment to Kubernetes - Part 1 ](https://www.youtube.com/watch?v=HX24uMKmJRw&list=PL34sAs7_26wMW4bWKnMIfEd87aPuw75by)
