@@ -7,7 +7,8 @@ parent: Güvenlik
 
 # CIS Benchmark
 
-[Benchmark PDF](../kaynaklar/CIS Kubernetes 1.24 Benchmark v1.0.0 PDF.pdf)
+
+[Benchmark PDF](/docs/kaynaklar/CIS Kubernetes 1.24 Benchmark v1.0.0 PDF.pdf)
 
 https://www.cisecurity.org/benchmark/kubernetes
 
