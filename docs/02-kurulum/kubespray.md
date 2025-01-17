@@ -128,11 +128,12 @@ ansible-playbook -v cluster.yml \
 
 ## Yeni nod ekleme
 
+* worker node eklemek için. diğer tür nodlar için farklı süreçler vardır. 
 ```
 declare -a IPS=(<server1_ip> <server2_ip> <server3_ip> <yeni_nod_ip>)
 CONFIG_FILE=inventory/mycluster/hosts.yaml python3 contrib/inventory_builder/inventory.py ${IPS[@]}
 
-ansible-playbook -i inventory/mycluster/hosts.yaml -b cluster.yml -u <kullanıcı> -kK --limit=kube_control_plane
+ansible-playbook -i inventory/mycluster/hosts.yaml -b scale.yml -u <kullanıcı> -kK --limit=<host_yml_içindeki_node_name>
 ```
 # autorenew seçilmemişse sertifika yenileme
 ``` 
@@ -148,4 +149,4 @@ sudo systemctl restart kubelet
 ## [Dashboard ve yeni eklenti kurma](dashboard.md)
 
 * Kaynaklar
-[Node Ekleme, Değiştirme](https://github.com/kubernetes-sigs/kubespray/blob/master/docs/nodes.md)
+[Node Ekleme, Değiştirme](https://github.com/kubernetes-sigs/kubespray/blob/master/docs/operations/nodes.md)
